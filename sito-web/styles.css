@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header Style */
+header{
+    margin: auto;
+    padding: 4px 0 0;
+    width: auto;
+    min-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FCFFFC;
+    background-color: #353333;
+}
+/* H1 Header Style */
+header h1{
+    margin: 20px  auto;
+    width: fit-content;
+}
+/* List Header Style  */
+#header-option ul{
+    background-color: rgba( 0, 0, 0, 90% );
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#header-option ul li{
+    color: #b6b3b3;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    transition: 800ms;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: grab;
+    border: 3px solid transparent;
+}
+#header-option ul li:hover{
+    color: #ffffff;
+}
+
+/* Menu Section Style */
+#Fonti-menu{
+    margin: 0;
+    padding: 10px;
+    color: #585191;
+}
+
+/*  Main Style */
+main{
+    margin: 0 auto;
+    padding: 10px 25px;
+    width: auto;
+    height: auto;
+    min-width: 20%;
+    min-height: 40%;
+    color: #FCFFFC;
+    background-color: #248232;
+}
+
+/* Footer Style */
+footer{
+    margin: 0 auto;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    min-width: 20%;
+    min-height: 20%;
+    color: #FCFFFC;
+    background-color: #585191;
+}
