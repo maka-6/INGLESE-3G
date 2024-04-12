@@ -114,10 +114,12 @@ main {
 }
 
 #types ul li {
+    min-width: min-content;
     list-style: none;
     padding: 8px;
     margin: 5px 2px;
-    width: 16%;
+    text-align: center;
+    width: 17%;
     border: 2px lightcoral solid;
     border-radius: 8px;
 }
